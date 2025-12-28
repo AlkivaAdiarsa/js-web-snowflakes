@@ -1,10 +1,4 @@
-body {
-  margin: 0;
-  background: linear-gradient(#001, #223);
-  color: white;
-  font-family: sans-serif;
-  min-height: 200vh; /* scrollable */
-}
+
 
 #snowflake {
   position: absolute;   /* overlay the whole page */
@@ -27,3 +21,4 @@ body {
 .snowflake-complete-block {
   display: inline-block;   /* size matches content by default */
 }
+
