@@ -9,9 +9,6 @@
   const blockClass = canvas.dataset.blockClass || "snowflake-block";
   const completeClass = canvas.dataset.completeClass || "snowflake-complete-block";
 
-  // === Dark mode guard (Bootstrap optional) ===
-  const themeAttr = document.documentElement.getAttribute("data-bs-theme");
-  if (darkOnly && themeAttr && themeAttr !== "dark") return;
 
   const ctx = canvas.getContext("2d");
 
@@ -174,4 +171,5 @@
     requestAnimationFrame(animate);
   }
   animate();
+
 })();
