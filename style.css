@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: linear-gradient(#001, #223);
+  color: white;
+  font-family: sans-serif;
+  min-height: 200vh; /* scrollable */
+}
+
+#snowflake {
+  position: absolute;   /* overlay the whole page */
+  top: 0;
+  left: 0;
+  width: 100%;          /* match page width */
+  height: auto;         /* JS sets actual height */
+  pointer-events: none; /* don’t block clicks */
+  z-index: 9999;        /* sit above content */
+}
+.snow-line {
+  position: absolute;
+  height: 2px;
+  background: white;
+  opacity: 1;
+  transition: opacity 5s linear;
+}
+/* Generic invisible hitbox */
+.snowflake-block,
+.snowflake-complete-block {
+  display: inline-block;   /* size matches content by default */
+}
