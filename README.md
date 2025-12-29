@@ -6,11 +6,11 @@ JavaScript snowflakes for your webpages, just insert and set up things, and you 
 add this to the bottom of the body of your webpage:
 ```html
 <canvas id="snowflake"></canvas>
-<script src="https://raw.githubusercontent.com/AlkivaAdiarsa/js-web-snowflakes/main/app.js"></script>
+<script src="https://alkivaadiarsa.github.io/js-web-snowflakes/app.js"></script>
 ```
 and this at the header:
 ```html
-<link rel="stylesheet" href="https://raw.githubusercontent.com/AlkivaAdiarsa/js-web-snowflakes/main/style.css">
+<link rel="stylesheet" href="https://alkivaadiarsa.github.io/js-web-snowflakes/style.css">
 ```
 then, snowflakes should appear in your website!\
 if not working, download and put it in your website
